@@ -1,6 +1,3 @@
-Here's an updated `README.md` that includes sections for `utils`, `api`, and `context`:
-
-````markdown
 # React Vite Structure Template
 
 A template for starting React projects using Vite with React Router DOM for routing.
@@ -23,6 +20,7 @@ A template for starting React projects using Vite with React Router DOM for rout
    git clone https://github.com/yourusername/react-vite-structure-template.git
    cd react-vite-structure-template
    ```
+
 ````
 
 3. **Install dependencies:**
@@ -70,3 +68,4 @@ README.md
 ## License
 
 MIT
+````
