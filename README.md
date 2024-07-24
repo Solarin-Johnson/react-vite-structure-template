@@ -1,11 +1,18 @@
+Here's an updated `README.md` that includes sections for `utils`, `api`, and `context`:
+
+````markdown
 # React Vite Structure Template
 
-A template for React projects using Vite.
+A template for starting React projects using Vite with React Router DOM for routing.
 
 ## Features
 
 - React
 - Vite
+- React Router DOM
+- Utilities
+- API Setup
+- Context API
 
 ## Getting Started
 
@@ -16,6 +23,7 @@ A template for React projects using Vite.
    git clone https://github.com/yourusername/react-vite-structure-template.git
    cd react-vite-structure-template
    ```
+````
 
 3. **Install dependencies:**
 
@@ -29,32 +37,36 @@ A template for React projects using Vite.
    npm run dev
    ```
 
-## Pushing to Multiple Repositories
+## Project Structure
 
-1. **Add a secondary remote:**
+```
+src/
+  ├── components/        # React components
+  ├── pages/             # Page components
+  ├── utils/             # Utility functions
+  ├── api/               # API functions
+  ├── context/           # Context API
+  ├── App.jsx
+  ├── main.jsx
+  ├── index.css
+public/
+  ├── index.html
+vite.config.js
+README.md
+```
 
-   ```bash
-   git remote add secondary <url_of_second_repository>
-   ```
+## Utilities
 
-2. **Push to both repositories:**
+**`src/utils/`**: Contains utility functions that can be used throughout the project.
 
-   ```bash
-   git push origin main
-   git push secondary main
-   ```
+## API
 
-   Or set up a Git alias:
+**`src/api/`**: Contains functions for API requests. Customize these functions to interact with your backend services.
 
-   ```bash
-   git config --global alias.pushall '!git push origin main && git push secondary main'
-   git pushall
-   ```
+## Context API
+
+**`src/context/`**: Contains React Context API setup. Use this for global state management.
 
 ## License
 
 MIT
-
-```
-This `README.md` now focuses solely on the project setup and handling multiple repositories.
-```
