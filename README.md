@@ -21,8 +21,6 @@ A template for starting React projects using Vite with React Router DOM for rout
    cd react-vite-structure-template
    ```
 
-````
-
 3. **Install dependencies:**
 
    ```bash
